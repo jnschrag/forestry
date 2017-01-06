@@ -19,3 +19,13 @@ collections:
     output: true
     permalink: "/states/:path/"
 timezone: America/New_York
+defaults:
+  - scope:
+      path: ""
+      type: states
+    values:
+      layout: page
+      thumbnail: ""
+      categories: []
+      description: ""
+      name: ""
